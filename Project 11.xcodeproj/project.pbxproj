@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4556195F22695037001942DA /* FireParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4556195E22695037001942DA /* FireParticles.sks */; };
 		45CF362E2266929700E6E2D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CF362D2266929700E6E2D6 /* AppDelegate.swift */; };
 		45CF36302266929700E6E2D6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 45CF362F2266929700E6E2D6 /* GameScene.sks */; };
-		45CF36322266929700E6E2D6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 45CF36312266929700E6E2D6 /* Actions.sks */; };
 		45CF36342266929700E6E2D6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CF36332266929700E6E2D6 /* GameScene.swift */; };
 		45CF36362266929700E6E2D6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CF36352266929700E6E2D6 /* GameViewController.swift */; };
 		45CF36392266929700E6E2D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CF36372266929700E6E2D6 /* Main.storyboard */; };
@@ -18,10 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4556195E22695037001942DA /* FireParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticles.sks; sourceTree = "<group>"; };
 		45CF362A2266929700E6E2D6 /* Project 11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 11.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CF362D2266929700E6E2D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45CF362F2266929700E6E2D6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		45CF36312266929700E6E2D6 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		45CF36332266929700E6E2D6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		45CF36352266929700E6E2D6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		45CF36382266929700E6E2D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,13 +62,13 @@
 			children = (
 				45CF362D2266929700E6E2D6 /* AppDelegate.swift */,
 				45CF362F2266929700E6E2D6 /* GameScene.sks */,
-				45CF36312266929700E6E2D6 /* Actions.sks */,
 				45CF36332266929700E6E2D6 /* GameScene.swift */,
 				45CF36352266929700E6E2D6 /* GameViewController.swift */,
 				45CF36372266929700E6E2D6 /* Main.storyboard */,
 				45CF363A2266929A00E6E2D6 /* Assets.xcassets */,
 				45CF363C2266929A00E6E2D6 /* LaunchScreen.storyboard */,
 				45CF363F2266929A00E6E2D6 /* Info.plist */,
+				4556195E22695037001942DA /* FireParticles.sks */,
 			);
 			path = "Project 11";
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 			files = (
 				45CF36392266929700E6E2D6 /* Main.storyboard in Resources */,
 				45CF36302266929700E6E2D6 /* GameScene.sks in Resources */,
+				4556195F22695037001942DA /* FireParticles.sks in Resources */,
 				45CF363B2266929A00E6E2D6 /* Assets.xcassets in Resources */,
 				45CF363E2266929A00E6E2D6 /* LaunchScreen.storyboard in Resources */,
-				45CF36322266929700E6E2D6 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kotystannard.Project-11";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -322,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kotystannard.Project-11";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
